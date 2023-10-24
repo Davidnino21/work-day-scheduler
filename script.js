@@ -18,8 +18,6 @@ $(function () {
       </div>`;
     $("#container").append(timeblock);
   }
-  //Jquery selector. selects all the buttons using the class name.
-  //hour becomes the key and its the hour
   $(".saveBtn").on("click", function () {
     const parent = $(this).parent()
     const hour = parent.attr("id")
